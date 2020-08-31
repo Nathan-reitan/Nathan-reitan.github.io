@@ -1,0 +1,197 @@
+
+.backdrop{
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.modal-contents{
+  width: 20rem;
+
+}
+
+.modal-close{
+  transition: all ease-in-out .2s;
+}
+.modal-close:hover{
+  transition: all ease-in-out .2s;
+  color: red;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.h-10{
+  height: 5%;
+}
+
+.header{
+  background-color: rgb(52, 58, 64);
+  top:0;
+  left:0;
+  right:0;
+}
+
+.white{
+  color:white;
+}
+.pac{
+  font-family: 'Pacifico', cursive;
+}
+
+.pink-hover:hover{
+  color:hotpink;
+  cursor: pointer;
+  transition: ease-in-out all .2s;
+}
+
+.add-column{
+  height: 2rem;
+  background-color: white;
+
+}
+.zoom{
+  transition: all .2s ease-in-out;
+}
+.zoom:hover{
+  transition: all ease-in-out .2s;
+  color: rgb(144, 238, 144);
+  cursor: pointer;
+  font-size:1.7rem;
+}
+
+.add-task{
+  cursor: pointer;
+  transition: all ease-in-out .4s;
+}
+.add-task:hover{
+  transition: all ease-in-out .2s;
+  font-size:1.4rem;
+}
+.horizontal-scroll{
+  overflow-x:scroll;
+}
+.column-dimensions{
+  width: 21rem;
+  min-width: 21rem;
+  height: 85vh;
+  max-height: 85vh;
+}
+.vertical-scroll{
+  overflow-y:scroll;
+  max-height: 72vh;
+}
+
+.help{
+  transition: all ease-in-out .2s;
+}
+.help:hover{
+  transition: all ease-in-out .2s;
+  color: rgb(97, 218, 251);
+  font-size: 2rem;
+  cursor: pointer;
+}
+.title-font{
+  font-size:7rem;
+}
+.mont{
+  font-family: Montserrat;
+}
+.blue{
+  color: rgb(97, 218, 251);
+}
+
+.circle{
+  border-radius: 50%;
+  height: 10rem;
+  width:10rem;
+  border: rgb(97, 218, 251) solid 3px;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: all ease-in-out .4s;
+}
+.circle:hover{
+  transition: all ease-in-out .4s;
+  transform: scale(1.1);
+}
+.kushol{
+  background-image: url(./images/kushol-h.jpg)
+}
+.nathan{
+  background-image: url(./images/0.jpg)
+}
+.jason{
+  background-image: url(./images/j.jpg)
+}
+.demo{
+  background-image: url(./images/demosmaller.gif);
+  width:40vw;
+  height: 35vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.custom{
+
+  background-color:white;
+  color: black;
+  border-radius: 15px;
+  border: 2px solid rgb(97, 218, 251);
+  transition: all ease-in-out .4s;
+}
+.custom:hover{
+  background-color: rgb(97, 218, 251);
+  transition: all ease-in-out .4s;
+}
+.our-app{
+  width: 40vw;
+}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .column-dimensions{
+  width: 13rem;
+  min-width: 13rem;
+  height: 85vh;
+  max-height: 85vh;
+}
+  .vertical-scroll{
+  overflow-y:scroll;
+  max-height: 70vh;
+}
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+    .column-dimensions{
+  width: 13rem;
+  min-width: 13rem;
+  height: 70vh;
+  max-height: 70vh;
+}
+.vertical-scroll{
+  overflow-y:scroll;
+  max-height: 40vh;
+}
+}
