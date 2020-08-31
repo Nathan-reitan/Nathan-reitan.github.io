@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6e9c8068.chunk.css",
+    "main.js": "/static/js/main.d92a7a1b.chunk.js",
+    "main.js.map": "/static/js/main.d92a7a1b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.578cfe93.js",
+    "runtime-main.js.map": "/static/js/runtime-main.578cfe93.js.map",
+    "static/js/2.70a7fc01.chunk.js": "/static/js/2.70a7fc01.chunk.js",
+    "static/js/2.70a7fc01.chunk.js.map": "/static/js/2.70a7fc01.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d70f062233090f795fed59b083fd5ef9.js": "/precache-manifest.d70f062233090f795fed59b083fd5ef9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6e9c8068.chunk.css.map": "/static/css/main.6e9c8068.chunk.css.map",
+    "static/js/2.70a7fc01.chunk.js.LICENSE.txt": "/static/js/2.70a7fc01.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/kushol-h.d0b09728.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.578cfe93.js",
+    "static/js/2.70a7fc01.chunk.js",
+    "static/css/main.6e9c8068.chunk.css",
+    "static/js/main.d92a7a1b.chunk.js"
+  ]
+}
